@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root {
+
+    --cor-primaria: #FFFFFF;
+    --cor-secundaria: #C0C0C0;
+    --cor-terciaria: #167BF7;
+    --cor-descricao: #F9F9F9;
+    --cor-fundo: #00030C;
+
+    --fonte-primaria: 'Inter', sans-serif;
+
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+
+}
+
+.conteudo__primeiro {
+
+    background-image: url("/assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    display: grid; /* separar por gride */
+    grid-template-columns: 50% 50%; /* separa a tela no meio */
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.conteudo__primeiro__info {
+
+    display: flex;  
+    flex-direction: column;
+    margin: 6rem;
+    font-family: var(--fonte-primaria);
+
+}
+
+.conteudo__primeiro__info__titulo {
+
+    font-size: 28px;
+
+}
+
+.conteudo__primeiro__info__imgcombo {
+
+    margin: 1rem 0 2rem 0;
+
+}
+
+.conteudo__primeiro__info__botao1 {
+
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 1rem;
+
+}
+
+.conteudo__primeiro__info__botao2 {
+
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-primaria);
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 1rem 0rem;
+
+
+}
+
+.conteudo__primeiro__info__observacao {
+
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+
+.conteudo__secundario {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0rem 8rem;
+    width: 80%;
+
+}
+
+.conteudo__secundario__info__titulo {
+
+    font-family: var(--fonte-primaria);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+
+}
+
+.conteudo__secundario__info__observacao {
+
+    font-family: var(--fonte-primaria);
+    color: var(--cor-descricao);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.conteudo__terciario {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0rem 8rem;
+    width: 80%;
+
+}
+
+.conteudo__terciario__info {
+
+    flex-direction: column;
+    
+
+}
+
+.conteudo__terciario__info__observacao {
+
+    font-family: var(--fonte-primaria);
+    color: var(--cor-descricao);
+    font-weight: 400;
+    font-size: 12px;
+    margin: 1rem 0rem;
+
+}
+
+.conteudo__terciario__info__botao1 {
+
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 5px;
+    padding: 1rem;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+}
+
+.conteudo__quartenario {
+
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding: 0rem 8rem;
+    width: 80%;
+
+}
+
+.conteudo__quartenario__info__titulo {
+
+    font-family: var(--fonte-primaria);
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0.5rem 0rem;
+
+}
+
+.conteudo__quartenario__info__observacao {
+
+    font-family: var(--fonte-primaria);
+    color: var(--cor-descricao);
+    font-weight: 400;
+    font-size: 12px;
+
+}
+
+.conteudo__quintanario {
+
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    margin: 5rem 0rem;
+
+}
+
+.conteudo__quintanario__titulo {
+
+    font-size: 32px;
+
+}
+
+.conteudo__quintanario__imagens {
+
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 16px;
+
+}
+
+.rodape {
+
+    text-align: center;
+    font-family: var(--fonte-primaria);
+
+}
+
+.rodape__lista {
+
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+    font-size: 12px;
+    margin: 1rem;
+
+}
+
+.lista__link a{
+
+    text-decoration: none;
+    color: var(--cor-primaria);
+
+}
+
+.lista__link a:hover {
+
+    color: var(--cor-terciaria)
+
+}
+
+.lista__link a:active {
+
+    color: red;
+
+}
+
+.rodape__texto {
+
+    font-size: 10px;
+    margin: 1rem;
+    color: var(--cor-secundaria);
+
+}
